@@ -56,7 +56,7 @@ section h2 {
   font-size: 32px;
 }
 section h3 {
-  font-size: 24px !important;
+  font-size: 20px !important;
 }
 
 #mainNav {
@@ -461,8 +461,16 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   padding: 15px 45px;
 }
 
+.br {
+    display: none;
+}
+
 @media (max-width: 600px) { 
     #logo {
         display: none;
+    }
+
+    .br {
+        display: block;
     }
 }
